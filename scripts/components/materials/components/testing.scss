@@ -1,0 +1,21 @@
+// This is a simple test file to verify sass and autoprefixer is working.
+// ---------------------------------------------------------------------
+// -------------------the css file should look like this ---------------
+/*
+a {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font: Helvetica, sans-serif;
+  color: #ffd800; }
+*/
+
+$testfont-stack: Helvetica, sans-serif;
+$test-color: #ffd800;
+
+a {
+    display: flex;
+    font: $testfont-stack;
+    color:$test-color;
+}
+

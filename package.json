@@ -1,7 +1,14 @@
 {
   "name": "BA2CT",
-  "version": "1.0.0",
+  "version": "1.0.0-alpha",
+  "branchPattern": "1.0.*",
   "description": "Boilerplate-Angular2-Cordova-TypeScript-VSStudio",
+  "homepage": "https://github.com/dbiele/",
+  "bugs": "https://github.com/dbiele/Boilerplate-Angular2-Cordova-TypeScript-VSStudio/issues",
+  "contributors": [
+    "Dean Biele <dean@invisionlearning.com>"
+  ],
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/dbiele/Boilerplate-Angular2-Cordova-TypeScript-VSStudio.git"
@@ -13,6 +20,13 @@
   },
   "devDependencies": {
     "gulp": "3.9.0",
-    "gulp-tsd": "0.0.4"
+    "gulp-tsd": "0.0.4",
+    "gulp-tslint": "3.2.0",
+    "gulp-sass": "2.0.4",
+    "gulp-autoprefixer": "3.0.0",
+    "gulp-postcss": "6.0.0",
+    "autoprefixer": "6.0.2",
+    "postcss": "5.0.4",
+    "es6-promise": "3.0.2"
   }
 }

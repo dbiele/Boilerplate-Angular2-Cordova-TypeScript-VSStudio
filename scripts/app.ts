@@ -2,11 +2,10 @@
 // https://github.com/dbiele/Boilerplate-Angular2-Cordova-TypeScript-VSStudio
 // To debug code on page load in Ripple or on Android devices/emulators: launch your app, set breakpoints, 
 // and then run "window.location.reload()" in the JavaScript Console.
-module BA2CT {
-    "use strict";
+module dbiele.BA2CT {
+    'use strict';
 
     export module Application {
-
 
         function logToStage(log: string) {
             var ul: HTMLElement;
@@ -25,7 +24,7 @@ module BA2CT {
 
         }
 
-        function onDeviceReady() {
+        function onDeviceReady():void {
             // Handle the Cordova pause and resume events
             console.log('Application onDeviceREady');
             logToStage('Device is Ready');
@@ -43,19 +42,19 @@ module BA2CT {
             // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
         }
 
-        function onDevicePause() {
+        function onDevicePause():void {
             console.log('applicaiton onPause');
             logToStage('onPause');
             // TODO: This application has been suspended. Save application state here.
         }
 
-        function onDeviceResume() {
+        function onDeviceResume():void {
             console.log('application onResume');
             logToStage('onResume');
             // TODO: This application has been reactivated. Restore application state here.
         }
 
-        function onDeviceMenuButton() {
+        function onDeviceMenuButton():void {
 
         }
 

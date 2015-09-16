@@ -16,4 +16,4 @@ System.config({
 
 // Loads ./scripts/app.js
 // System calls inititalize when import has completed loading.
-System.import('app').then(() => BA2CT.Application.initialize());
+System.import('app').then(() => dbiele.BA2CT.Application.initialize());

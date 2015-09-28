@@ -6,7 +6,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <ReferenceCachePath>C:\Users\DBiele\AppData\Local\Temp\BA2CT_refcache</ReferenceCachePath>
-    <ShowAllFiles>true</ShowAllFiles>
+    <ShowAllFiles>false</ShowAllFiles>
     <ToolsVersionPromptShown>1.6</ToolsVersionPromptShown>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Windows Phone 8'">
